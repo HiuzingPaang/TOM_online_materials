@@ -1,0 +1,26 @@
+>> simulation_code >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the code for model simulation and fitting
+
+"mical.m" was for calculating the MI values under different conditions
+"temreset.m" was for constructing the context resetting model
+"temcon.m" and "postem.m" were for constructing the position coding model
+"step1_runmodel.m" was for obtaining the MI values under each condition
+"step2_fitmodel_olddata.m" was for fitting the models with Pu's real data
+"step3_fitmodel_newdata.m" was for fitting the models with Pu's real data and the new one
+"R_EquivalenceTest.R" was for the equivalence test in R software
+
+>> simulation_data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing some related data from simulation
+
+"crit_run1_200" - evaluating whether the context resetting model could capture various effects
+"crit_run2_200" - evaluating whether the position coding model could capture various effects
+"R_run1_29" and "R_run1_200" - p value of the equivalence test under 29 or 200 iterations, for context resetting model
+"R_run2_29" and "R_run2_200" - p value of the equivalence test under 29 or 200 iterations, for position coding model
+"t_pval_run1_29" and "t_pval_run1_200" - p value of the one-tailed t test under 29 or 200 iterations, for context resetting model
+"t_pval_run2_29" and "t_pval_run2_200" - p value of the one-tailed t test under 29 or 200 iterations, for position coding model
+
+>> experiment_material >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the stimuli used for the TOM experiment
+
+>> experiment_data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the averaged behavioral accuracy for "Across One" and "Across Two"
