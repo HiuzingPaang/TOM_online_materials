@@ -8,6 +8,8 @@ containing the code for model simulation and fitting
 "step2_fitmodel_olddata.m" was for fitting the models with Pu's real data
 "step3_fitmodel_newdata.m" was for fitting the models with Pu's real data and the new one
 "R_EquivalenceTest.R" was for the equivalence test in R software
+"possim.m" was for the position coding scheme of exponential similarity structure
+"postrans.m" was for the position coding scheme of Transformer
 
 >> simulation_data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 containing some related data from simulation
@@ -23,4 +25,4 @@ containing some related data from simulation
 containing the stimuli used for the TOM experiment
 
 >> experiment_data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-containing the averaged behavioral accuracy for "Across One" and "Across Two"
+containing the averaged behavioral accuracy for "Across One" and "Across Two" and single trial data for each subject
