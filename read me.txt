@@ -25,4 +25,7 @@ containing some related data from simulation
 containing the stimuli used for the TOM experiment
 
 >> experiment_data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-containing the averaged behavioral accuracy for "Across One" and "Across Two" and single trial data for each subject
+containing the averaged behavioral accuracy for "Across One" and "Across Two"
+
+>> trialdata_subject >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the single trial data for each subject
