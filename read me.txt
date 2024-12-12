@@ -1,0 +1,25 @@
+>> simulation_code >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the code for model simulation and fitting
+
+"mical.m" was for calculating the MI values under different conditions
+"temreset.m" was for constructing the context resetting model
+"temcon.m" and "postem.m" were for constructing the position coding model
+"fitmodel_mi_prepare.m" was for obtaining the MI values under each condition
+"fitmodel_realdata.m" was for fitting the models with Pu's real data and our new ones
+"R_EquivalenceTest_demo.R" was for the equivalence test in R software
+"recovery_mi_prepare.m" was for obtaining the MI values for the model recovery simulation
+"simulate_mi.m" was for simulating "fake data" for the model recovery simulation
+"recovery_model_run1.m" was for evaluating the fitting performance of the context-resetting model
+"recovery_model_run2.m" was for evaluating the fitting performance of the position-coding model
+
+>> experiment_material >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the stimuli used for the TOM experiment
+
+>> experiment1_data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the averaged behavioral accuracy for "Across One" and "Across Two"
+
+>> experiment2_data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the averaged behavioral accuracy for "Across One", "Across Two", "Within Event", and "Across Event"
+
+>> trialdata_exp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+containing the trial data for exp1 and exp2, as well as a simple code for analysis
